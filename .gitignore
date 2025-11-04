@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg
+*.egg-info/
+.eggs/
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# IDE-specific files
+.idea/  # PyCharm
+.vscode/ # VS Code
+*.iml # IntelliJ IDEA
+
+# Operating System files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Temporary files
+*.tmp
+*.log
+*.sqlite3 # Django database files
+
+# Distribution / build files
+build/
+dist/
+develop-eggs/
+sdist/
+var/
+wheels/
+share/python-wheels/
+
+# PyInstaller / Nuitka
+*.spec
+build-*/
+dist-*/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Other common files to ignore
+.coverage
+htmlcov/
+.pytest_cache/
