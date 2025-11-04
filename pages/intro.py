@@ -11,6 +11,8 @@ layout = html.Div(children=[
         ]),
     html.Div(children=[
         html.Br(),
+        html.H2("Presentado por: José Fabián Beltrán Meza"),
+        html.Br(),
         html.H2("Gráficas a visualizar: "),
         html.Ul(
             [
