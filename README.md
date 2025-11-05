@@ -1,6 +1,6 @@
 # Actividad4 - Aplicación web interactiva para el análisis de mortalidad en Colombia
 
-# Análisis de Mortalidad en Colombia 2019 – Aplicación Interactiva con Dash Plotly
+## Análisis de Mortalidad en Colombia 2019 – Aplicación Interactiva con Dash Plotly
 
 ## 📘 Introducción
 
@@ -39,7 +39,37 @@ Con ello, se pretende aportar una herramienta de análisis visual útil para ent
 │ ├── mapa.py
 │ └── tabla.py
 ├── src/
-│ ├── convertidor.py
+│ ├── convertidor.py # Los archivos xlsx deben ser convertidos a csv para poder funcionar
 │ └── main.py
 └── requirements.txt
 ```
+
+---
+
+## 📋 Requisitos
+
+Asegúrate de tener instalado **Python 3.11+**. para poder crear el entorno virtual (venv)
+Las dependencias necesarias se encuentran registradas en el archivo requirements.txt
+Dentro de este archivo encontrará paquetes como:
+
+- dash==3.2.0
+- geopandas==1.1.1
+- pandas==2.3.3
+
+_(Puedes instalar todas las dependencias con `pip install -r requirements.txt`)_
+... etc.
+
+---
+
+## Software Utilizado
+
+- **Python 3.11+**
+- **Dash** – Framework principal para la creación de interfaces web interactivas.
+- **Plotly** – Librería para visualización de datos en gráficos dinámicos.
+- **Pandas** – Procesamiento y análisis de datos tabulares.
+- **Gunicorn** – Servidor WSGI utilizado para el despliegue en Render.
+- **VS Code** – Entornos de desarrollo.
+
+---
+
+## 💻 Instalación y Ejecución Local
