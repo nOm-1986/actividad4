@@ -111,3 +111,23 @@ Si desea ejecutar el proyecto vaya al apartado Instalacíón y Ejecución Local
 
 El gráfico de mapa nos muestra como el departamento de Antioquia y Valle del Cauca son los que tienen el mayor número de muertos para el año 2019, su color es como se visualiza en el mapa de una tonalidad roja intensa.
 ![Gráfico Mapa](https://raw.githubusercontent.com/nOm-1986/actividad4/refs/heads/main/assets/2-mapa.png)
+
+### 2 - Gráfico de Líneas
+
+Este gráfico nos muestra el total de muertes por mes ocurridas en Colombia en el año 2019. Facilmente vemos la variaciones en cada uno de los meses siendo diciembre el mes en el cual se presentó el mayor número de fallecidos con un total de 21.678k
+![Gráfico de lineas](https://raw.githubusercontent.com/nOm-1986/actividad4/refs/heads/main/assets/3-lineas.png)
+
+### 3 - Gráfico de Barras
+
+El gráfico de barras nos presenta las 5 ciudades más violentas de Colombia. Este nos indica que en el departamento de Valle del Cauca en la ciudad de Cali el total de muertos fue de 971 para los códigos de muerte (códigos X95, agresión con disparo de armas de fuego y casos no especificados).
+![Gráfico de barras](https://raw.githubusercontent.com/nOm-1986/actividad4/refs/heads/main/assets/4-barra.png)
+
+### 4 - Gráfico Circular
+
+El gráfico circular muestra las 10 ciudades con menor número de fallecimientos registrados, evidenciando concentraciones demográficas con tasas más bajas. Dentro de estas encontramos Margarita, San Fernando, Bituima, etc.
+![Gráfico de circular](https://raw.githubusercontent.com/nOm-1986/actividad4/refs/heads/main/assets/5-circular.png)
+
+### 5 - Tabla
+
+La tabla ordena las 10 principales causas de muerte, con su código CIE-10 y total de casos. Permite identificar los eventos más frecuentes a nivel nacional. Esta tabla es interactiva y puede aplicar filtros de búsqueda.
+![Tabla](https://raw.githubusercontent.com/nOm-1986/actividad4/refs/heads/main/assets/6-tabla.png)
