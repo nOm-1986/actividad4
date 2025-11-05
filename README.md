@@ -24,6 +24,7 @@ Con ello, se pretende aportar una herramienta de análisis visual útil para ent
 
 ## 🏛️ Estructura del Proyecto
 
+```bash
 ├── data/
 │ ├── CodigosDeMuerte.csv
 │ ├── Divipola.csv
@@ -41,3 +42,4 @@ Con ello, se pretende aportar una herramienta de análisis visual útil para ent
 │ ├── convertidor.py
 │ └── main.py
 └── requirements.txt
+```
