@@ -82,7 +82,7 @@ Si desea ejecutar el proyecto vaya al apartado Instalacíón y Ejecución Local
    -Ingresar a la carpeta creada cd actividad4
    En consola pegue: git clone ...
 
-2. Una vez descargada la información debe descomprimir el zip ubicado en la carpeta data. Este zip contiene los CSV necesarios para la creacion de las gráficas.
+2. Una vez descargada la información debe descomprimir el zip ubicado en la carpeta data. Este zip contiene los CSV necesarios para la creacion de las gráficas. Es importante utilizar estos CSV ya que los nombres de algunas columnas fueron modificados.
 
 3. Cree un entorno virtual con python utilizando el comando en consola:
 
@@ -131,3 +131,17 @@ El gráfico circular muestra las 10 ciudades con menor número de fallecimientos
 
 La tabla ordena las 10 principales causas de muerte, con su código CIE-10 y total de casos. Permite identificar los eventos más frecuentes a nivel nacional. Esta tabla es interactiva y puede aplicar filtros de búsqueda.
 ![Tabla](https://raw.githubusercontent.com/nOm-1986/actividad4/refs/heads/main/assets/6-tabla.png)
+
+### 6 - Gráfico de barras apiladas
+
+El gráfico de barras apiladas compara el número de muertes masculinas y femeninas en cada departamento, revelando contrastes significativos en regiones específicas.
+![Gráfico de barras apilada](https://raw.githubusercontent.com/nOm-1986/actividad4/refs/heads/main/assets/7-apilada.png)
+
+### 7 - Histograma
+
+El histograma agrupa los registros según la variable GRUPO_EDAD1, evidenciando los picos de mortalidad en etapas de adultez intermedia y vejez. Como se observa en la imagen, para el grupo de vejez (60 - 84 años) es el que mayor número se visualiza con un total de 115453.
+![Gráfico de barras apilada](https://raw.githubusercontent.com/nOm-1986/actividad4/refs/heads/main/assets/8-histograma.png)
+
+## Conclusión
+
+Esta aplicación combina el poder de Python, específicamente utilizando las librerias Dash y Plotly para ofrecer una herramienta interactiva y visual de análisis de mortalidad basados en la lectura de archivos CSV, estas gráficas generadas con estas librerias nos ayudan y contribuyendo al entendimiento de los patrones demográficos y epidemiológicos en Colombia para el año 2019.
