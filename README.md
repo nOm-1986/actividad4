@@ -58,6 +58,7 @@ Dentro de este archivo encontrará paquetes como:
 
 _(Puedes instalar todas las dependencias con `pip install -r requirements.txt`)_
 ... etc.
+Si desea ejecutar el proyecto vaya al apartado Instalacíón y Ejecución Local
 
 ---
 
@@ -73,3 +74,40 @@ _(Puedes instalar todas las dependencias con `pip install -r requirements.txt`)_
 ---
 
 ## 💻 Instalación y Ejecución Local
+
+1. **Clonar repositorio:**
+   copiar: git clone https://github.com/nOm-1986/actividad4.git
+   en cmd de su sistema cree una carpeta e ingrese a esta:
+   -Ejemplos: mkdir actividad4
+   -Ingresar a la carpeta creada cd actividad4
+   En consola pegue: git clone ...
+
+2. Una vez descargada la información debe descomprimir el zip ubicado en la carpeta data. Este zip contiene los CSV necesarios para la creacion de las gráficas.
+
+3. Cree un entorno virtual con python utilizando el comando en consola:
+
+- python -m venv venv
+
+4. Active el entorno
+
+- venv/Scripts/activate
+  Una vez activado el entorno ya puede instalar las dependencias necesarias.
+
+5. Instalar dependencias utilizando
+
+- pip install -r requirements.txt
+
+6. Ejecutar la aplicación:
+
+- python src/main.py
+
+7. Abrir el navegador:
+
+- http://127.0.0.1:8050/
+
+## 📊 Visualizaciones y Resultados
+
+### 1 - Mapa
+
+El gráfico de mapa nos muestra como el departamento de Antioquia y Valle del Cauca son los que tienen el mayor número de muertos para el año 2019, su color es como se visualiza en el mapa de una tonalidad roja intensa.
+![Gráfico Mapa](https://raw.githubusercontent.com/nOm-1986/actividad4/refs/heads/main/assets/2-mapa.png)
